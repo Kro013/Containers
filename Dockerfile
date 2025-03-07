@@ -1,3 +1,5 @@
 FROM httpd:latest
-RUN echo "MATAS APACHE" > /usr/local/apache2/htdocs/index.html
+
+RUN echo "MATAS NGINX" > /usr/share/nginx/html/index.html
+
 EXPOSE 80
